@@ -3,3 +3,18 @@ Git will start to track the version this directory. We need to do it to setup fi
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area presents which file to be commited next. Repository is a collection of many commits. Value it offers is a way for us developer to manage which file we want to commit into our repository because we don't want to commit all files together and cause unecessarry log.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Use git diff --staged can show us what code to be added and we can check it to make sure one logical per change
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When we are going to experiment or add a totally different feature (lots of changes) or something we are unsure of. Branches helps to try the different experiment or changes without affecting the main feature of the master branch.
+
+How do the diagrams help you visualize the branch structure?
+Of course very obvious
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Combine both code into one code having the last commit from both parent. Represent the diagram the way we do to know the parent also to know the logical changes happeing on each branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automerge is quick but occasionally we it will conflict and we need to fix this manually.
