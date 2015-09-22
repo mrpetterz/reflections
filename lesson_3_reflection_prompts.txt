@@ -11,3 +11,6 @@ Describe the differences between forks, clones, and branches. When would you use
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 To check when we need push our commit to the remote whether someone else push another commit to the current remote. If someone push, we need to merge it and push a newly merged master.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I would be using email to collaborate if there is no git or github. It would be easier if our program is small but it will be much harder when we work with many people on a large scale software.
