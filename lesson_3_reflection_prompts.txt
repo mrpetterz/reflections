@@ -14,3 +14,6 @@ To check when we need push our commit to the remote whether someone else push an
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 I would be using email to collaborate if there is no git or github. It would be easier if our program is small but it will be much harder when we work with many people on a large scale software.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+We need to make branch other than directly change the master when we need other to collaborate with us and get others to approve or comment on our changes. The benefit is that we did not directly alter the master in gitHub, that way we will not interfere with the core function of the program.
